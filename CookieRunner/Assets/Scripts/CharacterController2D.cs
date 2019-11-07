@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
+using System.Collections;
+using System.Collections.Generic;
 
 public class CharacterController2D : MonoBehaviour
 {
@@ -19,6 +21,9 @@ public class CharacterController2D : MonoBehaviour
 	private bool m_FacingRight = true;  // For determining which way the player is currently facing.
 	private Vector3 m_Velocity = Vector3.zero;
 
+	[Header("Items")]
+	public List<GameObject> items = new List<GameObject>();
+
 	[Header("Events")]
 	[Space]
 
@@ -30,6 +35,10 @@ public class CharacterController2D : MonoBehaviour
 	public BoolEvent OnCrouchEvent;
 	private bool m_wasCrouching = false;
 
+	public GameObject playerBody;
+	public GameObject smoreBody;
+	public bool smoreMode = false;
+
 	private void Awake()
 	{
 		m_Rigidbody2D = GetComponent<Rigidbody2D>();
@@ -39,6 +48,20 @@ public class CharacterController2D : MonoBehaviour
 
 		if (OnCrouchEvent == null)
 			OnCrouchEvent = new BoolEvent();
+	}
+
+	private void Update() {
+		if(smoreMode){
+			playerBody.SetActive(false);
+			smoreBody.SetActive(true);
+		}
+		else{
+			playerBody.SetActive(true);
+			smoreBody.SetActive(false);
+		}
+
+		//if(items.Size() )
+			
 	}
 
 	private void FixedUpdate()
@@ -143,4 +166,16 @@ public class CharacterController2D : MonoBehaviour
 		theScale.x *= -1;
 		transform.localScale = theScale;
 	}
+
+	void OnTriggerEnter2D(Collider2D other) 
+    {
+        if (other.gameObject.CompareTag ("Item"))
+        {
+			items.Add(other.gameObject);
+
+            other.gameObject.SetActive (false);
+        }
+    }
+
+
 }
