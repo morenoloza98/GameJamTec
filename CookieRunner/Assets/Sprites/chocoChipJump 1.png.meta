@@ -1,0 +1,487 @@
+fileFormatVersion: 2
+guid: edab5cb07834749dca780818a57720e7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6309715738307912907
+    second: chocoChipJump 1_0
+  - first:
+      213: 2073990951192059995
+    second: chocoChipJump 1_1
+  - first:
+      213: -1711427690546464300
+    second: chocoChipJump 1_2
+  - first:
+      213: -9053031663771032668
+    second: chocoChipJump 1_3
+  - first:
+      213: -1529150737216110289
+    second: chocoChipJump 1_4
+  - first:
+      213: -7777330966726680878
+    second: chocoChipJump 1_5
+  - first:
+      213: 8911508675210765824
+    second: chocoChipJump 1_6
+  - first:
+      213: 2396647645861260238
+    second: chocoChipJump 1_7
+  - first:
+      213: 5690677095809520157
+    second: chocoChipJump 1_8
+  - first:
+      213: -9191255119382189519
+    second: chocoChipJump 1_9
+  - first:
+      213: 8596328525235623623
+    second: chocoChipJump 1_10
+  - first:
+      213: -1834397337944673496
+    second: chocoChipJump 1_11
+  - first:
+      213: -7118354117453773454
+    second: chocoChipJump 1_12
+  - first:
+      213: 7940059880531141239
+    second: chocoChipJump 1_13
+  - first:
+      213: 188427807633083625
+    second: chocoChipJump 1_14
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chocoChipJump 1_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 2
+        width: 488
+        height: 501
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dad960cb02f94292bafe797308f1f76
+      internalID: 6309715738307912907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chocoChipJump 1_1
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 3
+        width: 467
+        height: 484
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3c6c673968f4e69be85f4ffd4b1c30
+      internalID: 2073990951192059995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chocoChipJump 1_2
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 6
+        width: 444
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e72c8dd747e4928943dee5eccc9ce9
+      internalID: -1711427690546464300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chocoChipJump 1_3
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 14
+        width: 438
+        height: 474
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0f5575057fa494eb45e85b6b1d4297
+      internalID: -9053031663771032668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chocoChipJump 1_4
+      rect:
+        serializedVersion: 2
+        x: 2246
+        y: 18
+        width: 452
+        height: 485
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd4704698f70447bb392e3f06653fd4
+      internalID: -1529150737216110289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chocoChipJump 1_5
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 26
+        width: 476
+        height: 490
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46af7cfe6b3bf4faebc6956b19755092
+      internalID: -7777330966726680878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chocoChipJump 1_6
+      rect:
+        serializedVersion: 2
+        x: 3294
+        y: 22
+        width: 535
+        height: 510
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a6fc081f4dd4925a0c3f32535e947e
+      internalID: 8911508675210765824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chocoChipJump 1_7
+      rect:
+        serializedVersion: 2
+        x: 3834
+        y: 18
+        width: 536
+        height: 510
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76495ed7f9ea462a86e91dd07337b74
+      internalID: 2396647645861260238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chocoChipJump 1_8
+      rect:
+        serializedVersion: 2
+        x: 4386
+        y: 14
+        width: 524
+        height: 510
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3b3b2f2ef76408286a8fdb9a1412a7
+      internalID: 5690677095809520157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chocoChipJump 1_9
+      rect:
+        serializedVersion: 2
+        x: 4934
+        y: 10
+        width: 516
+        height: 510
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a7154ca90c84b69b20288298b5430e
+      internalID: -9191255119382189519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chocoChipJump 1_10
+      rect:
+        serializedVersion: 2
+        x: 5483
+        y: 10
+        width: 507
+        height: 502
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffbb51c0397ab4bd581ad08950a74c48
+      internalID: 8596328525235623623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chocoChipJump 1_11
+      rect:
+        serializedVersion: 2
+        x: 6034
+        y: 6
+        width: 496
+        height: 502
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6a16d4624f646f483f2d484833496f
+      internalID: -1834397337944673496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chocoChipJump 1_12
+      rect:
+        serializedVersion: 2
+        x: 6586
+        y: 6
+        width: 484
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9158f2bc8638b453e83a2711998e8140
+      internalID: -7118354117453773454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chocoChipJump 1_13
+      rect:
+        serializedVersion: 2
+        x: 7130
+        y: 2
+        width: 488
+        height: 501
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1e03863c9124d6e8886a7f8fce4e33
+      internalID: 7940059880531141239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chocoChipJump 1_14
+      rect:
+        serializedVersion: 2
+        x: 7678
+        y: 2
+        width: 484
+        height: 502
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36114d2f370e145c7b41cdc0a865a133
+      internalID: 188427807633083625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

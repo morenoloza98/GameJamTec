@@ -11,6 +11,8 @@ public class PlayerMovement : MonoBehaviour
     public bool jump = false;
     public bool crouch = false;
 
+    public Animator animator;
+
    void Update()
     {
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
