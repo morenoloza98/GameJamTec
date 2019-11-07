@@ -21,5 +21,17 @@ public class UIController : MonoBehaviour
             fulfillmentText.text = "You have fulfilled your destiny!";
             fulfillmentText.gameObject.SetActive(true);
         }
+
+        //Invoke("Hide", 5f);
+
+    }
+
+    void Hide()
+    {
+        if (fulfillmentText.gameObject.activeSelf)
+        {
+            fulfillmentText.gameObject.SetActive(false);
+        }
+        
     }
 }

@@ -40,6 +40,7 @@ public class CharacterController2D : MonoBehaviour
 	public bool smoreMode;
     public bool eatable;
     public bool nearBear;
+    public UIController ui;
 
 	private void Awake()
 	{
@@ -185,12 +186,21 @@ public class CharacterController2D : MonoBehaviour
             eatable = true;
         }
 
-        if (other.gameObject.CompareTag("Bear") && eatable)
+        if (other.gameObject.CompareTag("Bear"))
         {
-            nearBear = true;
+            if (eatable)
+            {
+                nearBear = true;
+                Time.timeScale = 0;
+            }
+            else
+            {
+                ui.fulfillmentText.gameObject.SetActive(true);
+                ui.fulfillmentText.text = "You need to become a s'more to fulfill your destiny!";
+            }
+            
         }
         
     }
-
 
 }

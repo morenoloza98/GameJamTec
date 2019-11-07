@@ -140,7 +140,7 @@ PrefabInstance:
     - target: {fileID: 8631614969261811385, guid: b6fc0537d70d047159fa2f024e853f7d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16.12
+      value: 74.5
       objectReference: {fileID: 0}
     - target: {fileID: 8631614969261811385, guid: b6fc0537d70d047159fa2f024e853f7d,
         type: 3}
@@ -207,6 +207,11 @@ PrefabInstance:
       propertyPath: m_JumpForce
       value: 600
       objectReference: {fileID: 0}
+    - target: {fileID: 8631614969261811387, guid: b6fc0537d70d047159fa2f024e853f7d,
+        type: 3}
+      propertyPath: ui
+      value: 
+      objectReference: {fileID: 1338813650}
     - target: {fileID: 8631614969261811391, guid: b6fc0537d70d047159fa2f024e853f7d,
         type: 3}
       propertyPath: m_Size.x
@@ -310,6 +315,7 @@ GameObject:
   m_Component:
   - component: {fileID: 186371207}
   - component: {fileID: 186371206}
+  - component: {fileID: 186371208}
   m_Layer: 0
   m_Name: Bear
   m_TagString: Bear
@@ -374,12 +380,38 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 186371205}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 77.8, y: 12, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 77.84, y: 10.66, z: 0}
+  m_LocalScale: {x: 1.3856, y: 1.3856, z: 1.3856}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &186371208
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186371205}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &439636891
 GameObject:
   m_ObjectHideFlags: 0
@@ -766,7 +798,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 320, y: 60}
+  m_SizeDelta: {x: 320, y: 100}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1590178374
 MonoBehaviour:
