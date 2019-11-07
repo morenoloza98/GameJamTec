@@ -37,7 +37,9 @@ public class CharacterController2D : MonoBehaviour
 
 	public GameObject playerBody;
 	public GameObject smoreBody;
-	public bool smoreMode = false;
+	public bool smoreMode;
+    public bool eatable;
+    public bool nearBear;
 
 	private void Awake()
 	{
@@ -51,18 +53,19 @@ public class CharacterController2D : MonoBehaviour
 	}
 
 	private void Update() {
-		if(smoreMode){
-			playerBody.SetActive(false);
-			smoreBody.SetActive(true);
-		}
-		else{
-			playerBody.SetActive(true);
-			smoreBody.SetActive(false);
-		}
+        if (smoreMode)
+        {
+            playerBody.SetActive(false);
+            smoreBody.SetActive(true);
+        }
+        else
+        {
+            playerBody.SetActive(true);
+            smoreBody.SetActive(false);
+        }
 
-		//if(items.Size() )
-			
-	}
+
+    }
 
 	private void FixedUpdate()
 	{
@@ -169,12 +172,24 @@ public class CharacterController2D : MonoBehaviour
 
 	void OnTriggerEnter2D(Collider2D other) 
     {
-        if (other.gameObject.CompareTag ("Item"))
+        if (other.gameObject.CompareTag("Item") && !items.Contains(other.gameObject))
         {
 			items.Add(other.gameObject);
 
             other.gameObject.SetActive (false);
         }
+
+        if(items.Count >= 3)
+        {
+            smoreMode = true;
+            eatable = true;
+        }
+
+        if (other.gameObject.CompareTag("Bear") && eatable)
+        {
+            nearBear = true;
+        }
+        
     }
 
 
