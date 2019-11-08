@@ -192,6 +192,16 @@ PrefabInstance:
       propertyPath: ui
       value: 
       objectReference: {fileID: 1338813650}
+    - target: {fileID: 8631614969261811387, guid: b6fc0537d70d047159fa2f024e853f7d,
+        type: 3}
+      propertyPath: m_AirControl
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631614970285465058, guid: b6fc0537d70d047159fa2f024e853f7d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6fc0537d70d047159fa2f024e853f7d, type: 3}
 --- !u!4 &13574782 stripped

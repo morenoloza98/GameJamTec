@@ -177,6 +177,7 @@ public class CharacterController2D : MonoBehaviour
         if (other.gameObject.CompareTag("Item") && !items.Contains(other.gameObject))
         {
 			items.Add(other.gameObject);
+			//Destroy(other.gameObject);
             other.GetComponent<SpriteRenderer>().enabled = false;
             if(other.gameObject.name == "Choco")
             {
