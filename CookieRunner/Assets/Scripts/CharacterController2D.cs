@@ -173,11 +173,29 @@ public class CharacterController2D : MonoBehaviour
 
 	void OnTriggerEnter2D(Collider2D other) 
     {
+        Color tempAlpha;
         if (other.gameObject.CompareTag("Item") && !items.Contains(other.gameObject))
         {
 			items.Add(other.gameObject);
-
-            other.gameObject.SetActive (false);
+            other.GetComponent<SpriteRenderer>().enabled = false;
+            if(other.gameObject.name == "Choco")
+            {
+                tempAlpha = ui.choco.color;
+                tempAlpha.a = 1f;
+                ui.choco.color = tempAlpha;
+            }
+            if (other.gameObject.name == "Mellow")
+            {
+                tempAlpha = ui.mmellow.color;
+                tempAlpha.a = 1f;
+                ui.mmellow.color = tempAlpha;
+            }
+            if (other.gameObject.name == "Milk")
+            {
+                tempAlpha = ui.milk.color;
+                tempAlpha.a = 1f;
+                ui.milk.color = tempAlpha;
+            }
         }
 
         if(items.Count >= 3)
@@ -191,7 +209,6 @@ public class CharacterController2D : MonoBehaviour
             if (eatable)
             {
                 nearBear = true;
-                Time.timeScale = 0;
             }
             else
             {
@@ -199,6 +216,11 @@ public class CharacterController2D : MonoBehaviour
                 ui.fulfillmentText.text = "You need to become a s'more to fulfill your destiny!";
             }
             
+        }
+
+        if (other.gameObject.CompareTag("Respawn"))
+        {
+            ui.Restart();
         }
         
     }

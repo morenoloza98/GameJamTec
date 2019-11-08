@@ -2,12 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class UIController : MonoBehaviour
 {
     public GameObject player;
     public CharacterController2D characterScript;
     public Text fulfillmentText;
+    public RawImage choco;
+    public RawImage milk;
+    public RawImage mmellow;
+    public GameObject[] itemsTwo;
 
     void Update()
     {
@@ -18,11 +23,8 @@ public class UIController : MonoBehaviour
 
         if (characterScript.nearBear)
         {
-            fulfillmentText.text = "You have fulfilled your destiny!";
-            fulfillmentText.gameObject.SetActive(true);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
-
-        //Invoke("Hide", 5f);
 
     }
 
@@ -34,4 +36,11 @@ public class UIController : MonoBehaviour
         }
         
     }
+
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+
 }
