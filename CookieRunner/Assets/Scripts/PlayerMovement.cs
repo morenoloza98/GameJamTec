@@ -17,17 +17,11 @@ public class PlayerMovement : MonoBehaviour
 
         if(Input.GetButtonDown("Jump") )
             jump = true;
-
-        if(Input.GetButtonDown("Crouch") )
-            crouch = true;
-        else if(Input.GetButtonUp("Crouch") )
-            crouch = false;
-        
     }
 
     void FixedUpdate()
     {
-        controller2D.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
+        controller2D.Move(horizontalMove * Time.fixedDeltaTime, false, jump);
         jump = false;
     }
 }

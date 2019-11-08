@@ -223,6 +223,8 @@ public class CharacterController2D : MonoBehaviour
         {
             ui.Restart();
         }
+
+		Destroy(other);
         
     }
 
